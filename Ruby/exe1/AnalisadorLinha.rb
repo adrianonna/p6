@@ -7,8 +7,6 @@
 
 
 
-
-# Toda vez que for instanciar uma classe/objeto, vai contar +1, ou seja, para cada linha vai ser uma classe que é instanciada.
 class AnalisadorLinha
   attr_accessor :lineText, :idx
 
@@ -18,7 +16,7 @@ class AnalisadorLinha
   end
 
   def analisar()
-    values = @lineText.split(' ')              # array de palavras
+    values = @lineText.split(' ')
     maior = 0
     values.tally.each{
         |key, value|

@@ -6,7 +6,7 @@ import pandas as pd
 # url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/WaveForm(v2).data"
 url = "WaveForm(v2).data"
 
-#WaveForm
+# WaveForm
 col_names = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19', 'x20', 'x21', 'label']
 feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19', 'x20', 'x21']
 
@@ -14,12 +14,12 @@ feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x1
 # url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/Segmentation-adjusted.data"
 # url = "Segmentation-adjusted.data"
 
-#Segmentation
+# Segmentation
 # col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
 # feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
 
 
-#PARKINSONS
+# PARKINSONS
 # col_names = ['label']
 # feature_cols = []
 
@@ -46,7 +46,7 @@ y = dataset.label # Saída
 # y_test = pd.concat([y[1666:2000],y[3666:4000],y[4666:5000]])
 
 
-#Segmentation
+# Segmentation
 X_train = pd.concat([X[0:560],X[700:1260],X[1400:1960]])
 y_train = pd.concat([y[0:560],y[700:1260],y[1400:1960]])
 

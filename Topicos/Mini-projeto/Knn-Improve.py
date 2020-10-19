@@ -18,11 +18,11 @@ t1 = time.time()
 
 
 # url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/Segmentation-adjusted.data"
-# url = "Segmentation-adjusted.data"
+url = "Segmentation-adjusted.data"
 
 #Segmentation
-# col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
-# feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
+col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
+feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
 
 
 # Carregar base de dados
@@ -33,7 +33,7 @@ y = dataset.label # Saída
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=None, stratify=y) # 80% treino e 20% teste
 
-K = 1   # Quantidade de vizinhos mais próximos
+K = 2   # Quantidade de vizinhos mais próximos
 
 ### Tranforma os dados em listas
 
@@ -119,26 +119,26 @@ def knn_improve(train_x, train_y, test, k, raios):
 
     return statistics.mode(res)  # retorna a classe com maior frequência
 
-resultKNN = []
+# resultKNN = []
 resultKNN_improve = []
 
 raios = calcular_raios(train_x, train_y)
 
 for i in range(len(test_x)):
-    classe = knn(train_x, train_y, test_x[i], K)
-    resultKNN.append(classe)
+    # classe = knn(train_x, train_y, test_x[i], K)
+    # resultKNN.append(classe)
 
     classeI = knn_improve(train_x, train_y, test_x[i], K, raios)
     resultKNN_improve.append(classeI)
 
-acc = metrics.accuracy_score(resultKNN, test_y)
+# acc = metrics.accuracy_score(resultKNN, test_y)
 acc2 = metrics.accuracy_score(resultKNN_improve, test_y)
-show = round(acc * 100)
+# show = round(acc * 100)
 show2 = round(acc2 * 100)
-print("{}%".format(show))
-print("{}%".format(show2))
+# print("KNN= {}%".format(show))
+print("KNN Improve= {}%".format(show2))
 
-print(resultKNN)
+# print(resultKNN)
 print(resultKNN_improve)
 print(test_y)
 

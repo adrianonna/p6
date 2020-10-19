@@ -3,12 +3,21 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import pandas as pd
 
-# url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/ajustado.data"
-url = "ajustado.data"
+# url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/Letter-recognition-adjusted.data"
+# url = "Letter-recognition-adjusted.data"
 
 #Letter
-col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16']
-feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16']
+# col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16']
+# feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16']
+
+
+# url = "https://raw.githubusercontent.com/adrianonna/p6/master/Topicos/Mini-projeto/Segmentation-adjusted.data"
+url = "Segmentation-adjusted.data"
+
+#Segmentation
+col_names = ['label', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
+feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19']
+
 
 #PARKINSONS
 # col_names = ['label']
@@ -37,7 +46,7 @@ y_test = pd.concat([y[6000:7000],y[12000:13000],y[18000:20000]])
 
 print(y_test)
 
-# Treinamendo da Árvore de Decisão
+# Treinamendo da Árvore de Decisão (aprendizado Eager)
 model = tree.DecisionTreeClassifier(criterion="entropy")
 model = model.fit(X_train, y_train)
 

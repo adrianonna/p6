@@ -27,13 +27,12 @@ y = dataset.label # Saída
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=None, stratify=y) # 80% treino e 20% teste
 
-n = 11
+k = 11
 
 # https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html#sklearn.neighbors.DistanceMetric
 # metric='euclidean'
 # metric='manhattan'
-# metric='hamming'
-model = KNeighborsClassifier(n_neighbors=n, metric='hamming', algorithm='brute')
+model = KNeighborsClassifier(n_neighbors=k, metric='manhattan', algorithm='brute')
 model = model.fit(X_train, y_train)
 
 result = model.predict(X_test)

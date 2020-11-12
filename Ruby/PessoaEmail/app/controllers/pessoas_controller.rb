@@ -15,6 +15,7 @@ class PessoasController < ApplicationController
   # GET /pessoas/new
   def new
     @pessoa = Pessoa.new
+    # @pessoa.build_email
   end
 
   # GET /pessoas/1/edit
@@ -69,6 +70,6 @@ class PessoasController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def pessoa_params
-      params.require(:pessoa).permit(:nome, :data_nascimento)
+      params.require(:pessoa).permit(:nome, :data_nascimento) #, email_attributes:[:id, :endereco, :pessoa_id]
     end
 end

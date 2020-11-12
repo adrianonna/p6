@@ -17,17 +17,15 @@
 
   <tbody>
   <% @pessoas.each do |pessoa| %>
-    <%# @emails.each do |email| %>
       <tr>
         <td><%= pessoa.id %></td>
         <td><%= pessoa.nome %></td>
         <td><%= pessoa.data_nascimento %></td>
-<!--        <td><%#= pessoa[:id] %></td>-->
+<!--        <td><%#= pessoa.email.endereco %></td>-->
         <td><%= link_to 'Show', pessoa %></td>
         <td><%= link_to 'Edit', edit_pessoa_path(pessoa) %></td>
         <td><%= link_to 'Destroy', pessoa, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <%# end %>
   <% end %>
   </tbody>
 </table>

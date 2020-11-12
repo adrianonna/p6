@@ -15,10 +15,12 @@ class EmailsController < ApplicationController
   # GET /emails/new
   def new
     @email = Email.new
+    @pessoas = Pessoa.all
   end
 
   # GET /emails/1/edit
   def edit
+    @pessoas = Pessoa.all
   end
 
   # POST /emails

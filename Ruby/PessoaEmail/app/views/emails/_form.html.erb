@@ -17,8 +17,16 @@
   </div>
 
   <div class="field">
-    <%= form.label :pessoa_id %>
-    <%= form.text_field :pessoa_id %>
+    <%#= form.label :pessoa_id %>
+    <%#= form.text_field :pessoa_id %>
+
+    <%= collection_select :email, :pessoa_id, @pessoas, :id, :nome %>
+    <!-- param1 O objeto que vai ser atribuido a chave nele, ou seja, que vai ter a chave estrangeira. Ex.: Ao criar um email, eu digo quem é a pessoa relacionada aquele email, ou seja, a chave estrangeira de pessoa fica em email -->
+    <!-- param2 O atributo que vai ser adicionado como chave estrangeira no param1, no caso o id de pessoa -->
+    <!-- param3 Da onde está vindo (Do def new e edit no controller email) o conjunto de dados que irá iterar para poder gerar um conjunto de options com os valores e labels(cada option), no caso o id e a pessoa referente ao id -->
+    <!-- param4 Qual o valor(value) que vai ser salvo -->
+    <!-- param5 Qual o label(cada option) que irá aparecer -->
+    <!-- No HTML vai se transformar em um select com um conjunto de option -->
   </div>
 
   <div class="actions">

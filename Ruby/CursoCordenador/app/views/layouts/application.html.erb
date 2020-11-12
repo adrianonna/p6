@@ -10,6 +10,8 @@
   </head>
 
   <body>
+  <%= minha_variavel_app = "Testanto parâmetro passado no partial" %><br>
+  <%= render partial: "/layouts/menu", locals: {variavel_menu: minha_variavel_app} %>
     <%= yield %>
   </body>
 </html>

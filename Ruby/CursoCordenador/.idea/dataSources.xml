@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails CursoCordenador: test" uuid="4e2ac8e1-abc0-4e85-b401-184b39b25b42">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\adria\Documents\p6\Ruby\CursoCordenador\cursoCordenador_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails CursoCordenador: development" uuid="8270390e-26f9-4f8d-ab05-22e59b90970c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\adria\Documents\p6\Ruby\CursoCordenador\cursoCordenador_development</jdbc-url>
+    </data-source>
+  </component>
+</project>

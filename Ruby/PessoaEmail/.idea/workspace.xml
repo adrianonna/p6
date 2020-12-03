@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138dbb1a-85be-4c44-b0ed-29154e1eb783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Topicos/.idea/Topicos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoCordenador/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoCordenador/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoCordenador/cursoCordenador_development" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoCordenador/cursoCordenador_development" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PessoaEmail_development" beforeDir="false" afterPath="$PROJECT_DIR$/PessoaEmail_development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/emails_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/emails_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/pessoas_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/pessoas_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/emails/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/emails/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/emails/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/emails/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pessoas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pessoas/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pessoas/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pessoas/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pessoas/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pessoas/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo1_development" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -58,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RailsTeste/RailsTeste" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,7 +155,12 @@
       <option name="presentableId" value="Default" />
       <updated>1605140944405</updated>
       <workItem from="1605140945924" duration="8403000" />
-      <workItem from="1605188328488" duration="12063000" />
+      <workItem from="1605188328488" duration="13263000" />
+      <workItem from="1605215893855" duration="1453000" />
+      <workItem from="1605217425632" duration="1013000" />
+      <workItem from="1605219771179" duration="390000" />
+      <workItem from="1606345724410" duration="53000" />
+      <workItem from="1606349994963" duration="23000" />
     </task>
     <servers />
   </component>
@@ -183,40 +184,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605188397393" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1605201262227">
+    <state x="2435" y="158" key="FileChooserDialogImpl" timestamp="1606350015488">
+      <screen x="1920" y="0" width="1440" height="850" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605207032262" />
+    <state x="2435" y="158" key="FileChooserDialogImpl/1920.0.1440.850/0.0.1536.824@1920.0.1440.850" timestamp="1606350015488" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262227" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1605201262226">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262226" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1605201262225">
+    <state width="1493" height="236" key="GridCell.Tab.0.center/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1605220166930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262225" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1605201262227">
+    <state width="1493" height="236" key="GridCell.Tab.0.left/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166930" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262227" />
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1605201262230">
+    <state width="1493" height="236" key="GridCell.Tab.0.right/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262230" />
-    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1605201262229">
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.center/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262229" />
-    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1605201262228">
+    <state width="1493" height="236" key="GridCell.Tab.1.center/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.left/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262228" />
-    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1605201262229">
+    <state width="1493" height="236" key="GridCell.Tab.1.left/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1605220166931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.right/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605201262229" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right/1920.0.1440.850/0.0.1536.824@0.0.1536.824" timestamp="1605220166931" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PessoaEmail@Development__PessoaEmail.rcov" NAME="Development: PessoaEmail Coverage Results" MODIFIED="1605201262213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PessoaEmail" />
+    <SUITE FILE_PATH="coverage/PessoaEmail@Development__PessoaEmail.rcov" NAME="Development: PessoaEmail Coverage Results" MODIFIED="1605219909893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PessoaEmail" />
   </component>
 </project>

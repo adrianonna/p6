@@ -6,7 +6,7 @@ from sklearn import metrics
 from collections import Counter
 
 class K_Means:
-    def run(self, name, x_train, x_test, y_train, y_test):
+    def run(self, name, x_train, x_test, y_train, y_test, k=5):
         myset = set(y_train) # Cria um conjunto. Em conjuntos, dados não se repetem. Assim, esse conjunto conterá apenas um valor de cada, ou seja: [1,2,3]
         clusters = len(myset) # Quantos clusters teremos no KMeans
 
@@ -21,7 +21,7 @@ class K_Means:
         for i in range(clusters):
             map_labels.append([])
 
-        new_y_train = y_train.to_list()
+        new_y_train = list(y_train)
 
         for i in range(len(y_train)):
             for c in range(clusters):
@@ -46,14 +46,15 @@ class K_Means:
         acc = metrics.accuracy_score(result, y_test)
         show = round(acc * 100)
 
-        # Printing results
-        print(f'\nK Means - {name}  =======================================================================')
-        print(f'The accuracy is {show} %')
-        print(f'{list(result)}')
-        print(f'{list(y_test)}')
+        # # Printing results
+        # print(f'\nK Means - {name}  =======================================================================')
+        # print(f'The accuracy is {show} %')
+        # print(f'{list(result)}')
+        # print(f'{list(y_test)}')
 
         dic = {
             "result": result,
+            "acc": acc,
             "show": show
         }
 
